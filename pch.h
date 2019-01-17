@@ -10,5 +10,7 @@
 #define PCH_H
 
 // TODO: add headers that you want to pre-compile here
-
+#include <list>
+#include "Cell.h"
+#include "Snake.h"
 #endif //PCH_H
