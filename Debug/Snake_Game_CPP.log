@@ -1,5 +1,7 @@
-﻿  Snake.cpp
+﻿  pch.cpp
+  Cell.cpp
+  Snake.cpp
   Snake_Game_CPP.cpp
-c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
   Snake_Game_CPP.vcxproj -> C:\Users\Онкология\source\repos\Snake_Game_CPP\Debug\Snake_Game_CPP.exe
