@@ -7,6 +7,9 @@ public:
 
 	Cell();
 	Cell(int x, int y);
+
+	void setPosition(int x, int y);
+
 	~Cell();
 };
 

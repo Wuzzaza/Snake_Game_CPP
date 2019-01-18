@@ -1,7 +1,6 @@
-﻿  pch.cpp
-  Cell.cpp
-  Snake.cpp
-  Snake_Game_CPP.cpp
-c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
-  Snake_Game_CPP.vcxproj -> C:\Users\Онкология\source\repos\Snake_Game_CPP\Debug\Snake_Game_CPP.exe
+﻿  Snake_Game_CPP.cpp
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(19): error C3861: 'FreeConsole': identifier not found
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\онкология\source\repos\snake_game_cpp\snake_game_cpp\snake_game_cpp.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data

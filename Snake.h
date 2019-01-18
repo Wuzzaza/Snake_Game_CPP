@@ -16,5 +16,7 @@ public:
 	Cell nextCell();
 	void move();
 	bool changeDirection(Directions newDirection);
+	void resetApple();
 };
+
 

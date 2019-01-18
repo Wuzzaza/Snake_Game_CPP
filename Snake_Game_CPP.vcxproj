@@ -160,6 +160,7 @@
     <ClInclude Include="Cell.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Snake.h" />
+    <ClInclude Include="Snake_Game_CPP.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />

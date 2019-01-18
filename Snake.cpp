@@ -5,6 +5,7 @@
 Snake::Snake(int gameFieldSize)
 {
 	this->gameFieldSize = gameFieldSize;
+	this->resetApple();
 	for (int i = 0; i < 4; i++) cellList.push_back(Cell(10, 10 + i));
 	direction = UP;
 }
@@ -22,9 +23,9 @@ void Snake::move()
 bool Snake::changeDirection(Directions newDirection)
 {
 	if (newDirection == UP && direction != DOWN) direction = newDirection;
-	if (newDirection == UP && direction != DOWN) direction = newDirection;
-	if (newDirection == UP && direction != DOWN) direction = newDirection;
-	if (newDirection == UP && direction != DOWN) direction = newDirection;
+	if (newDirection == LEFT && direction != RIGHT) direction = newDirection;
+	if (newDirection == DOWN && direction != UP) direction = newDirection;
+	if (newDirection == RIGHT && direction != LEFT) direction = newDirection;
 
 	return false;
 }
@@ -58,4 +59,9 @@ Cell Snake::nextCell()
 		break;
 	}
 	return nextCell;
+}
+
+void Snake::resetApple()
+{
+	this->apple.setPosition((int)(rand() % gameFieldSize), (int)(rand() % gameFieldSize));
 }
