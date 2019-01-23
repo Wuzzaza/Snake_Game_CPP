@@ -17,6 +17,7 @@ public:
 	void move();
 	bool changeDirection(Directions newDirection);
 	void resetApple();
+	bool eatApple();
 };
 
 

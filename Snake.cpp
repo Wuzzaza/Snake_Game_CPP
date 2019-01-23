@@ -17,7 +17,8 @@ Snake::~Snake()
 void Snake::move()
 {
 	cellList.push_front(nextCell());
-	cellList.pop_back();
+	if (eatApple()) resetApple();
+		else cellList.pop_back();
 }
 
 bool Snake::changeDirection(Directions newDirection)
@@ -64,4 +65,19 @@ Cell Snake::nextCell()
 void Snake::resetApple()
 {
 	this->apple.setPosition((int)(rand() % gameFieldSize), (int)(rand() % gameFieldSize));
+	
+	for (Cell cell : cellList)
+	{
+		if (cell.x == apple.x && cell.y == apple.y) 
+			this->apple.setPosition((int)(rand() % gameFieldSize), (int)(rand() % gameFieldSize));
+
+	}
+
 }
+
+bool Snake::eatApple()
+{
+	return (nextCell().x == apple.x && nextCell().y == apple.y);
+}
+
+
